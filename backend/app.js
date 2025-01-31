@@ -16,9 +16,7 @@ mongoose
 
 //! Cors config
 const corsOptions = {
-  origin: ["https://expense-tracker-vs8q.onrender.com"],
-  credentials: true,
-  allowedHeaders: ["Content-Type", "Authorization"],
+  origin: ["http://localhost:5173"],
 };
 app.use(cors(corsOptions));
 //!Middlewares
